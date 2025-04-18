@@ -1,29 +1,27 @@
-# weather-app
+# 🌤️ The Local Weather App
 
-This template should help get you started developing with Vue 3 in Vite.
+A sleek and responsive weather app built with **Vue 3**, **Vite**, **Tailwind CSS**, and **Axios**. Easily search for any city around the world using **Mapbox**, preview the current weather, and track your favorite locations.
 
-## Recommended IDE Setup
+## 🔥 Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- 🌍 **Search any city** using Mapbox API
+- 📍 **Track locations** locally using UID
+- ☁️ **Live weather data** from OpenWeatherMap API
+- 🕒 **Hourly & 7-day forecast**
+- 💡 **Dark mode ready** (if implemented)
+- 📱 Fully **responsive design**
 
-## Customize configuration
+## 📦 Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/)
+- [Mapbox Geocoding API](https://docs.mapbox.com/api/search/geocoding/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+- [UID](https://www.npmjs.com/package/uid) for local data management
 
-## Project Setup
+## 🛠️ Project Setup
 
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
