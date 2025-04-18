@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.bg-primary {
+    @apply bg-blue-500;
+}
+.text-weather-color {
+    @apply text-blue-300;
+}
+.container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
